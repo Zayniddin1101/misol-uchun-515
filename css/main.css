@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+div {
+    justify-content: center;
+    padding: 200px;
+}
+.btn {
+    width: 150px;
+    height: 40px;
+    background: linear-gradient(rgb(182, 215, 137), rgb(149, 240, 30),rgb(10, 250, 6));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;    
+    border: none;
+    margin: auto;
+}
+
+a {
+    color: rgba(183, 43, 43, 0.635);
+    outline: cyan;
+}
